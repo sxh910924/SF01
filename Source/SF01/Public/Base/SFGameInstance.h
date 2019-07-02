@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
-#include "SF01GameModeBase.generated.h"
+#include "Engine/GameInstance.h"
+#include "SFGameInstance.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class SF01_API ASF01GameModeBase : public AGameModeBase
+class SF01_API USFGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 	
